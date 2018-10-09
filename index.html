@@ -8,13 +8,8 @@
 	<script>
 		let mynumber = prompt("введите число");
 		mynumber = parseInt(mynumber);
-		if(mynumber>0) {
-			console.log(mynumber);
-		} else if (mynumber<0) {
-			console.log(mynumber+(mynumber*(-2)));
-		}else {
-			console.log("вы ввели 0"); 
-		}
+		(mynumber>0) ? console.log(mynumber) : console.log(mynumber+(mynumber*(-2)));
+		
 	</script>
 </body>
 </html>
